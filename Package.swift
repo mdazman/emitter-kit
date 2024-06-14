@@ -7,7 +7,9 @@ let package = Package(
             name: "EmitterKit",
             targets: ["EmitterKit"]),
     ],
-    dependencies: [],
+    dependencies: [
+	.package(url: "https://github.com/mdazman/emitter-kit.git", exact: "1.0.0"),
+    ],
     targets: [
         .target(
             name: "EmitterKit",
